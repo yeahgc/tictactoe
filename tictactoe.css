@@ -1,0 +1,38 @@
+#board {
+    padding: 3em;
+    text-align: center;
+  }
+  
+  .square {
+    float: left;
+    clear: right;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+  }
+  
+  .row {
+    margin: 0 auto;
+    width: 302px;
+    
+  }
+  
+  .top {
+    border-bottom: black 1px solid
+  }
+  
+  .bottom {
+    border-top: rgb(135, 0, 153) 1px solid
+  }
+  
+  .left {
+    border-right: blue 1px solid;
+  }
+  
+  .right {
+    border-left: red 1px solid;
+  }
+  
+  .square:hover {
+    cursor: pointer;
+  }
